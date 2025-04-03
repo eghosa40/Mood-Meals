@@ -66,4 +66,4 @@ Too many people waste time deciding what to eat. Mood Meals makes that decision 
 1. **Install Android Studio** (Electric Eel or newer recommended)
 2. **Clone this repo**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/mood-meals.git
+   git clone https://github.com/eghosa40/Mood-Meals.git
