@@ -1,69 +1,51 @@
 # 🥗 Mood Meals
 
 📱 *Tell me how you feel, and I’ll tell you what to eat.*  
-Mood Meals is a simple Android app that uses OpenAI to suggest meals based on your current mood and available ingredients.
+Mood Meals is a lightweight Android app that suggests meals based on your mood and available ingredients using OpenAI.
 
 ---
 
-## 📌 Project Overview
+## 📌 Overview
 
-### **App Name**
-Mood Meals
+### App Name
+**Mood Meals**
 
----
+### Purpose
+To reduce decision fatigue around food by using mood + ingredients to generate quick meal ideas.
 
-### **Purpose**
-Too many people waste time deciding what to eat. Mood Meals makes that decision fun and fast by using your *mood* and *available ingredients* to suggest recipes instantly via AI.
-
----
-
-### **Target Users**
-- University students
-- Busy professionals
-- Anyone who struggles with meal decisions
-- People who want quick, mood-based food ideas
+### Target Users
+- Busy people
+- Students
+- Anyone who doesn’t want to think too hard about what to cook
 
 ---
 
-### **Core Features (MVP)**
-- 😌 Mood selection screen (e.g. Lazy, Sad, Gym-mode, Broke)
-- 🥕 Optional ingredient input (type a few ingredients you have)
-- 🧠 OpenAI GPT-powered meal generation
-- 🧾 Display 2–3 short recipe ideas
-- ❤️ Save favorite recipes locally
-- 📚 View saved recipes anytime (Favorites screen)
+## ✅ Core Features (MVP)
+
+- Mood selection (e.g. Lazy, Sad, Gym-mode, Broke)
+- Optional ingredient input
+- AI-generated recipe suggestions (2–3 per request)
+- Save favorite meals locally
+- View list of saved favorites
 
 ---
 
 ## 🧰 Tech Stack
 
-### **Language**
-- Kotlin
-
-### **UI**
-- Jetpack Compose
-
-### **Architecture**
-- MVVM (Model-View-ViewModel)
-
-### **Backend**
-- OpenAI GPT-3.5 API
-- Local storage via `SharedPreferences` (or Room if extended)
+| Layer | Tool |
+|-------|------|
+| Language | Kotlin |
+| UI | Jetpack Compose |
+| Architecture | MVVM |
+| AI | OpenAI API (GPT-3.5) |
+| Local Storage | SharedPreferences |
 
 ---
 
-## 📱 Screens
+## 🖥 How to Run
 
-- **Mood Selection Screen** – User selects their mood from visual cards
-- **Ingredients Input Screen** – Type in ingredients (optional)
-- **Meal Suggestions Screen** – View AI-generated meal ideas
-- **Favorites Screen** – View and manage saved recipes
-
----
-
-## 🧪 How to Run
-
-1. **Install Android Studio** (Electric Eel or newer recommended)
-2. **Clone this repo**
+1. Open in **Android Studio Electric Eel+**
+2. Clone repo:  
    ```bash
    git clone https://github.com/eghosa40/Mood-Meals.git
+
